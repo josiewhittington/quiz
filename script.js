@@ -12,7 +12,7 @@ const quizData = [
     },
     {
         question: "What are my thoughts on raw chicken",
-        options: ["Gross", "Yum", "Protein"],
+        options: ["Gross", "Yum", "Protein", "Ok"],
         answer: 0
     },
     {
