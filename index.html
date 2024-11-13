@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Josie's Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Cover Page Section -->
+    <div class="cover-page" id="cover-page">
+        <h1>Josie Quiz!!!</h1>
+        <img src="monkey.jpg" alt="Cover Image" class="cover-image">
+        <button onclick="startQuiz()" class="start-btn">Begin 🙂‍↕️</button>
+    </div>
+
+    <!-- Quiz Section (Initially Hidden) -->
+    <div class="quiz-container" id="quiz" style="display: none;">
+        <h2>Josie's Quiz</h2>
+        <div id="question">Question text goes here</div>
+        <div class="options">
+            <button class="option" onclick="selectOption(0)">Option 1</button>
+            <button class="option" onclick="selectOption(1)">Option 2</button>
+            <button class="option" onclick="selectOption(2)">Option 3</button>
+            <button class="option" onclick="selectOption(3)">Option 4</button>
+        </div>
+        <button id="next-btn" onclick="nextQuestion()">Next</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
