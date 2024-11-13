@@ -15,6 +15,16 @@ const quizData = [
         options: ["Gross", "Yum", "Protein"],
         answer: 0
     }
+    {
+        question: "My celebrity crush",
+        options: ["Grian Chatten", "Chris Evans", "Timothée Chalamet", "Ryan Reynolds"],
+        answer: 0
+    }
+    {
+        question: "My favorite food",
+        options: ["Bread", "Pizza", "Almond butter", "Peanut butter"],
+        answer: 3
+    }
 ];
 
 let currentQuestion = 0;
