@@ -1,28 +1,33 @@
 const quizData = [
     {
-        question: "What do I like to do on Sunday mornings",
-        options: ["Drink coffee with almond milk", "Drink black coffee",
-        "Drink coffee with oat milk", "Drink coffee with extra oat milk"],
-        answer: 3
-    },
-    {
-        question: "What am I scared of",
-        options: ["Spiders", "The dark", "Picasso", "Grapes"],
+        question: "My favorite ice cream topping",
+        options: ["oreos", "m&ms",
+        "kitkats", "reese's"],
         answer: 1
     },
     {
-        question: "What are my thoughts on raw chicken",
-        options: ["Gross", "Yum", "Protein", "Ok"],
+        question: "What floor of the parking garage am I parked on right now",
+        options: ["3", "4", "5", "6"],
+        answer: 1
+    },
+    {
+        question: "What is the third letter of my favorite major",
+        options: ["c", "p", "s", "a"],
         answer: 0
     },
     {
-        question: "My celebrity crush",
-        options: ["Grian Chatten", "Chris Evans", "Timothée Chalamet", "Ryan Reynolds"],
-        answer: 0
+        question: "My favorite season",
+        options: ["Spring", "Summer", "Fall", "Winter"],
+        answer: 2
     },
     {
-        question: "My favorite food",
-        options: ["Bread", "Pizza", "Almond butter", "Peanut butter"],
+        question: "How long was my last phone call with my mom",
+        options: ["8 minutes", "12 minutes", "18 minutes", "22 minutes"],
+        answer: 3
+    },
+    {
+        question: "What was the last thing I ate",
+        options: ["pb & j", "peanut butter", "ice cream", "ramen"],
         answer: 3
     }
 ];
